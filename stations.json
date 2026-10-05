@@ -1,9 +1,10 @@
 {
-  "version": 4,
+  "version": 5,
   "stations": [
     {"id": "eg-cairo", "name": "إذاعة القرآن الكريم من القاهرة", "country": "مصر", "url": "https://stream.radiojar.com/8s5u5tpdtwzuv"},
     {"id": "sa-quran", "name": "إذاعة القرآن الكريم - السعودية", "country": "السعودية", "url": "https://stream.radiojar.com/0tpy1h0kxtzuv"},
     {"id": "sa-quran-2", "name": "إذاعة القرآن الكريم - السعودية (بث آخر)", "country": "السعودية", "url": "https://stream.radiojar.com/4wqre23fytzuv"},
+    {"id": "sa-sunnah", "name": "السنة النبوية من المسجد النبوي", "country": "السعودية", "url": "https://stream.radiojar.com/x0vs2vzy6k0uv"},
     {"id": "ae-sharjah", "name": "إذاعة القرآن الكريم من الشارقة", "country": "الإمارات", "url": "https://svs.itworkscdn.net/smcquranlive/quranradiolive/icecast.audio"},
     {"id": "qa-106", "name": "إذاعة القرآن الكريم - قطر", "country": "قطر", "url": "https://live.kwikmotion.com/qmcquranradio2live/quranradio2/playlist.m3u8"},
     {"id": "ps-nablus", "name": "إذاعة القرآن الكريم من نابلس", "country": "فلسطين", "url": "https://quran-radio.org:8899/;"},
@@ -14,6 +15,27 @@
     {"id": "r-abdulbasit", "name": "الشيخ عبد الباسط عبد الصمد", "country": "تلاوات", "url": "https://backup.qurango.net/radio/abdulbasit_abdulsamad"},
     {"id": "r-maher", "name": "الشيخ ماهر المعيقلي", "country": "تلاوات", "url": "https://backup.qurango.net/radio/maher"},
     {"id": "r-afasi", "name": "الشيخ مشاري العفاسي", "country": "تلاوات", "url": "https://backup.qurango.net/radio/mishary_alafasi"},
-    {"id": "r-tafseer", "name": "تفسير القرآن الكريم", "country": "تلاوات", "url": "https://backup.qurango.net/radio/tafseer"}
+    {"id": "r-khashia", "name": "تلاوات خاشعة", "country": "تلاوات", "url": "https://backup.qurango.net/radio/salma"},
+    {"id": "r-tarateel", "name": "تراتيل قصيرة متميزة", "country": "تلاوات", "url": "https://backup.qurango.net/radio/tarateel"},
+    {"id": "s-baqarah", "name": "سورة البقرة لعدد من القراء", "country": "تلاوات", "url": "https://backup.qurango.net/radio/albaqarah"},
+    {"id": "s-mulk", "name": "سورة الملك", "country": "تلاوات", "url": "https://backup.qurango.net/radio/Surah_Al-Mulk"},
+    {"id": "r-tafseer", "name": "تفسير القرآن الكريم", "country": "تفسير", "url": "https://backup.qurango.net/radio/tafseer"},
+    {"id": "t-mukhtasar", "name": "المختصر في تفسير القرآن الكريم", "country": "تفسير", "url": "https://backup.qurango.net/radio/mukhtasartafsir"},
+    {"id": "t-tabari", "name": "الخلاصة من تفسير الطبري", "country": "تفسير", "url": "https://backup.qurango.net/radio/tabri"},
+    {"id": "t-gareeb", "name": "تفسير غريب القرآن", "country": "تفسير", "url": "https://backup.qurango.net/radio/gareeb-quran"},
+    {"id": "h-bukhari", "name": "صحيح البخاري", "country": "حديث", "url": "https://backup.qurango.net/radio/saheh-bokharee"},
+    {"id": "h-muslim", "name": "صحيح مسلم", "country": "حديث", "url": "https://backup.qurango.net/radio/saheh-muslim"},
+    {"id": "h-riyad", "name": "رياض الصالحين", "country": "حديث", "url": "https://backup.qurango.net/radio/riyad"},
+    {"id": "h-shamail", "name": "الشمائل المحمدية", "country": "حديث", "url": "https://backup.qurango.net/radio/shmaeel"},
+    {"id": "si-zilal", "name": "في ظلال السيرة النبوية", "country": "سيرة وقصص", "url": "https://backup.qurango.net/radio/fi_zilal_alsiyra"},
+    {"id": "si-mukhtasar", "name": "المختصر في السيرة النبوية", "country": "سيرة وقصص", "url": "https://backup.qurango.net/radio/almukhtasar_fi_alsiyra"},
+    {"id": "si-anbiya", "name": "قصص الأنبياء", "country": "سيرة وقصص", "url": "https://backup.qurango.net/radio/alanbiya"},
+    {"id": "si-sahabah", "name": "صور من حياة الصحابة والتابعين", "country": "سيرة وقصص", "url": "https://backup.qurango.net/radio/sahabah"},
+    {"id": "f-fatwa", "name": "الفتاوى العامة", "country": "فتاوى وفقه", "url": "https://backup.qurango.net/radio/fatwa"},
+    {"id": "f-ikhtiyarat", "name": "الاختيارات الفقهية في العبادات والمعاملات", "country": "فتاوى وفقه", "url": "https://backup.qurango.net/radio/alaikhtiarat_alfiqhayh_bin_baz"},
+    {"id": "a-sabah", "name": "أذكار الصباح", "country": "أذكار ورقية", "url": "https://backup.qurango.net/radio/athkar_sabah"},
+    {"id": "a-masa", "name": "أذكار المساء", "country": "أذكار ورقية", "url": "https://backup.qurango.net/radio/athkar_masa"},
+    {"id": "a-roqiah", "name": "الرقية الشرعية", "country": "أذكار ورقية", "url": "https://backup.qurango.net/radio/roqiah"},
+    {"id": "a-sakeenah", "name": "آيات السكينة", "country": "أذكار ورقية", "url": "https://backup.qurango.net/radio/sakeenah"}
   ]
 }
